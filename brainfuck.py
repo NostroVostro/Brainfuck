@@ -141,7 +141,7 @@ def main(f_name):
 		try:
 			while live_console:
 				text = input('->: ')
-				braces          = create_bracearry(text)
+				braces          = create_bracearray(text)
 				cells, cell_ptr = parse(text, text_ptr, cells, cell_ptr, braces)
 				print_cells(cells, cell_ptr)
 
