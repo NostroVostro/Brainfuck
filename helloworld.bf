@@ -1,6 +1,6 @@
-# helloworld.bf
-# I'm really back at Brainfuck, but
-# given some time, and practice, 
+# helloworld bf
+# I'm really back at Brainfuck but
+# given some time and practice 
 # I could probably make this a lot shorter
 
 # H
