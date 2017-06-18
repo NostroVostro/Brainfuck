@@ -1,9 +1,9 @@
 # readme.txt
 
-Usage:
-python brainfuck.py helloworld.bf
+**Usage**:
+`python brainfuck.py helloworld.bf`
 or for the live interpreter,
-python brainfuck.py --live
+`python brainfuck.py --live`
 
 This is a brainfuck interpreter I wrote.
 This version inparticular has a few extra features
