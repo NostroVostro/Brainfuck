@@ -1,85 +1,13 @@
-# helloworld bf
-# I'm really back at Brainfuck but
-# given some time and practice 
-# I could probably make this a lot shorter
+# Hey I think im actually starting to 
+# figure this language out
 
-# H
->> ++++ [
-	< ++++ ++++ ++++ ++++ ++
-	> -
-]<
+# we basically go through and make the base 10 of the number we want
+# we also reuse some cells for the same letter to make things shorter it makes things
+# more hardcoded but thats kinda what Brainfuck is all about to begin with
++++++ +++++ [
+	> +++++++ > +++++ +++++ > +++++ +++++ > +++++ +++++ > +++ > ++++ ++++ > +++++ +++++ > +++++ +++++ > +++
+	<<<<<<<<<-
+]
 
-# e
->> ++++ [
-	< +++++ +++++ +++++ +++++ +++++
-	> - 
-]<+ 
-
-# l
->> ++ ++[
-	< +++++ +++++ +++++ +++++ +++++ ++
-	> -
-]< 
-
-# l
->> ++ ++[
-	< +++++ +++++ +++++ +++++ +++++ ++
-	> -
-]< 
-
-# o
->> ++ + ++[
-	< +++++ +++++ +++++ +++++ ++
-	> -
-]<+
-
-# (space)
->> ++++ [
-	< ++++ ++++
-	> -
-]<
-
-# W
->> ++++ [
-	< +++++ +++++ +++++ +++++ +
-	> -
-]<+++
-
-# o
->> ++ + ++[
-	< +++++ +++++ +++++ +++++ ++
-	> -
-]<+
-
-# r
->> ++ + ++[
-	< +++++ +++++ +++++ +++++ ++
-	> -
-]<++++
-
-# l
->> ++ ++[
-	< +++++ +++++ +++++ +++++ +++++ ++
-	> -
-]< 
-
-# d
->> ++++ [
-	< +++++ +++++ +++++ +++++ +++++
-	> - 
-]<
-
-# (exclamation point)
->> ++++ [
-	< ++++ ++++
-	> -
-]<+
-
-# Removes ending zero
-# and takes us back to the 
-# first cell which is 0
->!<[<]!
-
-# Takes us back over the
-# cells and prints them
-[.>]!
+# and when we're done we go through and add what we need and print them out
+>++.>+.>++++ ++++..>+++++ + +++++.>++.>+++ + +++.<<.>>>+++++ ++++ +++++.<<<<.>>>>>.>+++.

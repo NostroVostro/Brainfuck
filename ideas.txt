@@ -1,0 +1,19 @@
+# ideas
+
+
+Using pipes and ampersands to put a cell into
+memory, and being able to access that cell
+	|>>>>>>>>>>>>>>|
+	|&>>>>>>>>>>>>>|
+	&++
+
+	Using the pipe commands, we could toss a cell into 
+	memory, and access it with &, allowing us to set
+	the current cell to whatever cell is current cell is 
+	set to the & token.
+
+	|>>>|
+	Would set & to be the 3rd cell from our current cell
+
+	|&<|
+	Would set & to be the cell before the cell currently set to &
